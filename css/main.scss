@@ -1,5 +1,8 @@
-//Styles
+//Framework Styles
+@import "vendor/demo";
+@import "vendor/grid";
 
+// Your Styles
 @import "normalize";
 @import "globals";
 @import "base";

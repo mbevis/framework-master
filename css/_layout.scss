@@ -1,7 +1,14 @@
 /* Layout.scss */
 
 @media screen and (min-width: $mobile) and (max-width: $desktop) {
+    
+    .row-no-gutter.gallery [class^="col-"] {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
     .gallery .col-3 {
-        width: calc(50% - #{$gutter});   
+        width: 50%;  
+        margin-bottom: 0;
     }
 }

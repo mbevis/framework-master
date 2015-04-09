@@ -141,6 +141,12 @@ $padding: 6px;
     margin-bottom: 0;
 }
 
+.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
 .vcenter {
     width: 100%; /* Firefox needs this */
     height: 100%; /* Height can be anything */

@@ -5,3 +5,18 @@ img {
     vertical-align: bottom;
 }
 
+body {
+    @include body-font;
+}
+
+h1, h2, h3 {
+    @include headline-font;
+}
+
+i, em {
+    @include body-font-italic;
+}
+
+b, strong {
+    @include body-font-bold;
+}

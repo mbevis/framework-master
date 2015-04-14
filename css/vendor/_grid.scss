@@ -132,6 +132,64 @@ $padding: 6px;
     }
 }
 
+
+@media screen and (min-width: $tablet) {
+     .row .col-1.center {
+        width: 8.33333333333%;
+         margin-left: calc(91.66666666% /2);
+    }
+
+    .row .col-2.center {
+        width: 16.6666666666%;
+        margin-left: calc(83.333333333% /2);
+    }
+
+    .row .col-3.center {
+        width: 25%;
+        margin-left: calc(75% /2);
+    }
+    
+    .row .col-4.center{
+        width: 33.3333333333%;
+        margin-left: calc(66.66666666% /2);
+    }
+    
+    .row .col-5.center {
+        width: 1.6666666666%;
+        margin-left: calc(58.333333333% /2);
+    }
+    
+    .row .col-6.center {
+        width: 50%;
+        margin-left: calc(50% /2);
+    }
+    
+    .row .col-7.center {
+        width: 58.33333333333%;
+        margin-left: calc(41.66666666% /2);
+    }
+
+    .row .col-8.center {
+        width: 66.6666666666%;
+        margin-left: calc(33.333333333% /2);
+    }
+    
+    .row .col-9.center {
+        width: 75%;
+        margin-left: calc(25% /2);
+    }
+    
+    .row .col-10.center{
+        width: 83.3333333333%;
+        margin-left: calc(16.66666666% /2);
+    }
+    
+    .row .col-11.center {
+        width: 91.6666666666%;
+        margin-left: calc(8.3333333333% /2);
+    }
+}
+
 .outer {
     width: 100%;
     margin-bottom: $gutter;

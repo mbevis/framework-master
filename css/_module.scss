@@ -5,14 +5,14 @@
     background-size: cover;
     height: 70%;
     height: 70vh;
-    text-align: center;
+    //text-align: center;
 }
 
 .banner-title {
     background-color: #fff;
     border-radius: 8px;
     color: #262626;
-    display: inline-block;
+    //display: inline-block;
     line-height: 1;
     padding: 8px;
 }
@@ -33,4 +33,8 @@
 
 .logo-eye {
     fill: red;
+}
+
+.info-seattle, .info-link, .info-links {
+    background-color: rebeccapurple;
 }

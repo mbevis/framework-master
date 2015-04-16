@@ -9,7 +9,7 @@ body {
     @include body-font;
 }
 
-h1, h2, h3, headline {
+h1, h2, h3, .headline {
     @include headline-font;
 }
 

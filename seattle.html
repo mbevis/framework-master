@@ -23,6 +23,8 @@
                         <ul>
                             <li><a href="seattle.html" class="menu-link">Home</a></li>
                             <li><a href="#history" class="menu-link">History</a></li>
+                            <li><label for="modal-one" class="btn" >Modal #1</label><br/></li>
+                            <li><label for="modal-two" class="btn" >Modal #2</label></li>
                         </ul>
                         <label for="navbar-checkbox" class="navbar-handle"></label>
                     </nav>
@@ -228,6 +230,27 @@
                         <li><a href="http://www.empmuseum.org/" target="_blank" alt="EMP (Experience Music Project) Tickets and Location">EMP (Experience Music Project)</a></li>
                         <li><a href="http://www.pikeplacemarket.org/" target="_blank" alt="Pike Place Market Tour Guide">Pike Place Market</a></li>
                     </ul>
+ <!-- Begin Toggle Code Example #1 -->
+                    <div class="collapse-wrap">
+                        <a href="#collapse-1" id="collapse-1" class="toggler">Open</a>
+                        <a href="#collapse" class="untoggler">Close</a>
+                        <div class="animate">
+                            <p>Cu eam amet fuisset perfecto, dico latine oporteat eu vis, ius dicta nostro te. Alia stet sit an, rebum postea ea duo. Per cibo paulo elaboraret cu. Te hinc aperiri impedit sit, quidam ponderum laboramus per te, altera labitur verterem per et. Alia moderatius ad vel.</p>
+                            <p>Cu eam amet fuisset perfecto, dico latine oporteat eu vis, ius dicta nostro te. Alia stet sit an, rebum postea ea duo. Per cibo paulo elaboraret cu. Te hinc aperiri impedit sit, quidam ponderum laboramus per te, altera labitur verterem per et. Alia moderatius ad vel.</p>
+                        </div>
+                    </div>
+                    <!-- End Toggle Code Example #1 -->
+
+                    <!-- Begin Toggle Code Example #2 -->
+                    <div class="collapse-wrap">
+                        <a href="#collapse-2" id="collapse-2" class="toggler">Open</a>
+                        <a href="#collapse" class="untoggler">Close</a>
+                        <div class="animate">
+                            <p>Cu eam amet fuisset perfecto, dico latine oporteat eu vis, ius dicta nostro te. Alia stet sit an, rebum postea ea duo. Per cibo paulo elaboraret cu. Te hinc aperiri impedit sit, quidam ponderum laboramus per te, altera labitur verterem per et. Alia moderatius ad vel.</p>
+                            <p>Cu eam amet fuisset perfecto, dico latine oporteat eu vis, ius dicta nostro te. Alia stet sit an, rebum postea ea duo. Per cibo paulo elaboraret cu. Te hinc aperiri impedit sit, quidam ponderum laboramus per te, altera labitur verterem per et. Alia moderatius ad vel.</p>
+                        </div>
+                    </div>
+<!-- End Toggle Code Example #2 -->
                 </aside>
             </section>
         </main>
@@ -242,6 +265,42 @@
             </div>
         </footer>
 
+        <!-- Begin Modal Content -->
+    <!-- Begin Modal One -->
+    <aside class="modal">
+        <input class="modal-open" id="modal-one" type="checkbox" hidden>
+        <div class="modal-wrap" aria-hidden="true" role="dialog">
+            <label class="modal-overlay" for="modal-one"></label>
+            <div class="modal-dialog">
+                <label class="btn-close" for="modal-one" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="100" height="100" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><path d="M50 0C22.4 0 0 22.4 0 50c0 27.6 22.4 50 50 50s50-22.4 50-50C100 22.4 77.6 0 50 0zM80.7 70.1L70.1 80.7c-0.6 0.6-1.5 0.6-2.1 0l-18-18 -18 18c-0.6 0.6-1.5 0.6-2.1 0L19.3 70.1c-0.6-0.6-0.6-1.5 0-2.1l18-18 -18-18c-0.6-0.6-0.6-1.5 0-2.1l10.6-10.6c0.6-0.6 1.5-0.6 2.1 0l18 18 18-18c0.6-0.6 1.5-0.6 2.1 0l10.6 10.6c0.6 0.6 0.6 1.5 0 2.1l-18 18 18 18C81.3 68.6 81.3 69.5 80.7 70.1z"/></svg></label>
+                <div class="row">
+                    <div class="col-3">
+                        <h2>Modal #1</h2>
+                    </div>
+                    <div class="col-9">
+                        <p>Lorem ipsum dolor sit amet, ad erat appetere gloriatur his, mea ei dictas utroque adipisci, cum et eirmod ancillae assueverit. Oratio reprimique est et, ea cetero aliquid cum. Et mucius corpora vim. Ne has admodum nominati interesset, at omnis nostro nostrum usu. Eum modo magna petentium at, cetero vituperata ex quo, elit adipiscing at per.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- Begin Modal One -->
+
+    <!-- Begin Modal Two -->
+    <aside class="modal">
+        <input class="modal-open" id="modal-two" type="checkbox" hidden>
+        <div class="modal-wrap" aria-hidden="true" role="dialog">
+            <label class="modal-overlay" for="modal-two"></label>
+            <div class="modal-dialog">
+                <label class="btn-close" for="modal-two" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="100" height="100" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><path d="M50 0C22.4 0 0 22.4 0 50c0 27.6 22.4 50 50 50s50-22.4 50-50C100 22.4 77.6 0 50 0zM80.7 70.1L70.1 80.7c-0.6 0.6-1.5 0.6-2.1 0l-18-18 -18 18c-0.6 0.6-1.5 0.6-2.1 0L19.3 70.1c-0.6-0.6-0.6-1.5 0-2.1l18-18 -18-18c-0.6-0.6-0.6-1.5 0-2.1l10.6-10.6c0.6-0.6 1.5-0.6 2.1 0l18 18 18-18c0.6-0.6 1.5-0.6 2.1 0l10.6 10.6c0.6 0.6 0.6 1.5 0 2.1l-18 18 18 18C81.3 68.6 81.3 69.5 80.7 70.1z"/></svg></label>
+                <h2>Modal #2</h2>
+                <p>Second modal example</p>
+            </div>
+        </div>
+    </aside>
+    <!-- End Modal Two -->
+<!-- End Modal Modal Content -->
+        
         <!-- Add your site or application javascript here -->
         <script src="//use.typekit.net/lqq0cil.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
